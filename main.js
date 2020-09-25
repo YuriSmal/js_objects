@@ -173,7 +173,7 @@
 //     },
 //     changeQuantity: function() {
 //         for (let key in buyList) {
-//             if (typeof buyList[key] !== "function") /*не проходить перевірка на функцію, не розумію чому*/ {
+//             if (typeof buyList[key] !== "function") {
 //                 let question = confirm(`Змінити кількість ${key}?`);
 //                 if (question) {
 //                     let newQuantity = +prompt('Введіть необхідну кількість');
