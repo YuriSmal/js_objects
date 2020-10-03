@@ -203,31 +203,73 @@
 // 4. Задана колекція [{name: "Yura", age: 55, hobby: ["films", "games", "hiking"], type: "Admin"}, {}, {},{}].
 // Вивести всіх адмінів. Вивести середній вік усіх працівників. Вивести тільки унікальні хоббі працівників.
 
-let employees = [
-    {
-        name: "Yura", 
-		age: 55, 
-		hobby: ["films", "games", "hiking"], 
-		type: "Admin"
-    },
-    {
-        name: "Vitaliy", 
-		age: 22, 
-		hobby: ["anime", "politics", "games"], 
-		type: "Admin"
-    },
-    {
-        name: "Diana", 
-		age: 22, 
-		hobby: ["coffee", "music", "films"], 
-		type: "User"
-    },
-    {
-        name: "Victor", 
-		age: 29, 
-		hobby: ["football", "food", "games"], 
-		type: "User"
-    }
-];
+// let employees = [
+//     {
+//         name: "Yura", 
+// 		age: 55, 
+// 		hobby: ["films", "games", "hiking"], 
+// 		type: "Admin"
+//     },
+//     {
+//         name: "Vitaliy", 
+// 		age: 22, 
+// 		hobby: ["anime", "politics", "games"], 
+// 		type: "Admin"
+//     },
+//     {
+//         name: "Diana", 
+// 		age: 22, 
+// 		hobby: ["coffee", "music", "films"], 
+// 		type: "User"
+//     },
+//     {
+//         name: "Victor", 
+// 		age: 29, 
+// 		hobby: ["music", "food", "games"], 
+// 		type: "User"
+//     }
+// ];
+    
+// function isAdmin() {
+//     for (let key in employees) {
+//     if (employees[key].type == "Admin") {
+//         let isAdmin = console.log(employees[key].name);
+//         }
+//     } 
+//     return isAdmin;
+// }
+
+// isAdmin();
+
+// function avgAge() {
+//     let age = 0;
+//     let avgAge
+//     for (let key in employees) {
+//         age += employees[key].age;
+//     }
+//     avgAge = age / employees.length;
+//     return console.log(avgAge);
+// }
+
+// avgAge();
+
+
+
+// function uniqueHobbies(arr) {
+//     let uniqueHobbies = [];
+//     let allHobbiesArr = [];
+//     let uniqueHobbiesObj = {};
+//     for (let i = 0; i < arr.length; i++) {
+//         allHobbiesArr = allHobbiesArr.concat(arr[i].hobby);
+//     }
+//     uniqueHobbiesObj = new Set(allHobbiesArr);
+//     uniqueHobbies = [...uniqueHobbiesObj];
+//     return uniqueHobbies;
+// }
+
+// console.log(uniqueHobbies(employees));
+
+
+
 
 
